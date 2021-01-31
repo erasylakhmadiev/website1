@@ -1,0 +1,94 @@
+body{
+  margin: 0;
+  padding: 0;
+  background:  url("./images/sunset.jpg") no-repeat;
+  background-size: cover;
+}
+.box{
+  width: 450px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+  font-family: 'normal',sans-serif;
+}
+.box-img{
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+.box h1{
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+.box h5{
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+.box p{
+  text-align: justify;
+}
+.box ul{
+  margin: 0;
+  padding: 0;
+
+}
+.box li{
+  display: inline-block;
+  margin: 7px;
+  padding: 0 6px;
+  list-style: none;
+}
+.box li a{
+  color: white;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
+}
+.box li a:hover{
+  color: #b9b9b9;
+}
+nav {
+  width:1280px;
+  margin: 0 auto;
+}
+
+nav:before{
+  content:'';
+  display:block;
+  height:50px;
+  width:100%;
+  background:black;
+  position:absolute;
+  left:0;
+  z-index:-1;
+}
+
+menu{
+  margin:0;
+  padding:0;
+  list-style:none;
+  height:50px;
+}
+
+menu li{
+  float: right;
+}
+
+menu li a{
+  color:white;
+  display:block;
+  height:50px;
+  padding:0 30px;
+  text-transform:uppercase;
+  text-decoration:none;
+  line-height:50px;
+}
+
+menu li a:hover{
+  background:#d34d43;
+}

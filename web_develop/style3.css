@@ -1,0 +1,49 @@
+body {
+  background:#E5F0FF url("./images/pikachu.png");
+  background-size: center;
+  background-position: 0 1000px;
+}
+nav {
+  width:1280px;
+  margin: 0 auto;
+}
+
+nav:before{
+  content:'';
+  display:block;
+  height:50px;
+  width:100%;
+  background:rgba(0, 0, 0, 0);
+  position:absolute;
+  left:0;
+  z-index:-1;
+}
+
+ul{
+  margin:0;
+  padding:0;
+  list-style:none;
+  height:50px;
+}
+
+ul li{
+  float:right;
+}
+
+ul li a{
+  color:black;
+  display:block;
+  height:50px;
+  padding:0 30px;
+  text-transform:uppercase;
+  text-decoration:none;
+  line-height:50px;
+}
+
+ul li a:hover{
+  background:#d34d43;
+}
+
+.hr-dashed {
+border-top: 3px dashed black;
+}
